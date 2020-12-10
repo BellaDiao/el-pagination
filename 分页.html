@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>分页jummer解决</title>
+    <!-- 引用 css-->
+    <link rel="stylesheet" href="./lib/css/bootstrap-3.3.4.css">
+    <link rel="stylesheet" href="./lib/css/element-ui.css">
+    <link rel="stylesheet" href="./lib/css/bootstrap-table.min.css">
+    <!-- 引用js=========================== -->
+    <script src="./lib/js/jquery-1.11.0.min.js"></script>
+    <script src="./lib/js/vue-2.6.12.js"></script>
+    <script src="./lib/js/bootstrap-3.3.7.min.js"></script>
+    <script src="./lib/js/bootstrap-table.min.js"></script>
+    <script src="./lib/js/bootstrap-vue.min.js"></script>
+    <script src="./lib/js/bootstrap-table-vue.min.js"></script>
+    <script src="./lib/js/bootstrap-vue-icons.min.js"></script>
+    <script src="./lib/js/element-ui.js"></script>
+    <script src="./lib/js/bootstrap-select.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="bodyContent">
+            <div style="padding-left: 15px;padding-right:15px;">
+                <table id="docDateTable" class="table table-hover table-bordered" style="color: #000000">
+                </table>
+                <el-pagination style="text-align: center;margin-top:14px;margin-bottom:16px" background
+                    layout="total, sizes, prev, pager, next, jumper" @size-change="pageSizeChange"
+                    @current-change="changePage" :total="pageLength">
+                </el-pagination>
+            </div>
+        </div>
+    </div>
+    <script src="./qs.js"></script>
+    <script src=./columnsCommon.js></script>
+    <script src=./分页.js>
+    </script>
+</body>
+
+</html>
+</body>
+
+</html>
